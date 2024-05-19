@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".HomeActivity">
+
+    <androidx.fragment.app.FragmentContainerView
+        android:id="@+id/fragmentContainer"
+        android:layout_width="match_parent"
+        android:layout_height="725dp" />
+
+    <Button
+        android:id="@+id/fragment1Btn"
+        android:layout_width="130dp"
+        android:layout_height="60dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="12dp"
+        android:layout_marginBottom="4dp"
+        android:backgroundTint="#886A6A"
+        android:text="Home"
+        app:cornerRadius="0dp" />
+
+    <Button
+        android:id="@+id/fragment2Btn"
+        android:layout_width="130dp"
+        android:layout_height="60dp"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="139dp"
+        android:layout_marginRight="100dp"
+        android:layout_marginBottom="4dp"
+        android:backgroundTint="#D3C9C9"
+        android:text="Berita"
+        android:textColor="#090909"
+        app:cornerRadius="0dp" />
+
+    <Button
+        android:id="@+id/fragment3Btn"
+        android:layout_width="130dp"
+        android:layout_height="60dp"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="10dp"
+        android:layout_marginRight="90dp"
+        android:layout_marginBottom="4dp"
+        android:backgroundTint="#886A6A"
+        android:text="Profile"
+        app:cornerRadius="0dp" />
+
+</RelativeLayout>

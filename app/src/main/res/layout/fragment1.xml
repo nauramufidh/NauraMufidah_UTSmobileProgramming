@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="235dp"
+        android:layout_height="135dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="30dp"
+        android:layout_marginEnd="146dp"
+        android:layout_marginBottom="558dp"
+        android:text="Tentang Aplikasi"
+        android:textColor="@color/black"
+        android:textSize="50dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="333dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="34dp"
+        android:layout_marginEnd="44dp"
+        android:layout_marginBottom="380dp"
+        android:text="Di era digital yang semakin maju, kebutuhan akan pengelolaan data yang efektif menjadi semakin penting. Salah satu bidang yang sangat membutuhkan manajemen data yang baik adalah pendataan alumni."
+        android:textColor="#9EA1A6"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="333dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="34dp"
+        android:layout_marginEnd="44dp"
+        android:layout_marginBottom="188dp"
+        android:text="Aplikasi Pendataan Alumni hadir sebagai solusi cerdas untuk memenuhi kebutuhan tersebut, memungkinkan institusi pendidikan untuk tetap terhubung dengan lulusan mereka, melacak perkembangan karier, dan memperkuat jaringan alumni."
+        android:textColor="#9EA1A6"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+
+</RelativeLayout>
